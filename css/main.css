@@ -7,9 +7,16 @@
   
   html {scroll-behavior: smooth;}
   
-  a { color: var(--primary-color); }
-  a:hover { color: var(--primary-color); }
+  a { 
+    color: #FFFFFF;
+  }
+  a:hover { color: rgb(187, 186, 186); }
   
+  p {
+    margin-top: 1rem;
+  }
+    
+
   /* width */
   ::-webkit-scrollbar {
     width: 14px;
