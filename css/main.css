@@ -102,9 +102,9 @@
   }
   
   /*
-  * Hero Section
+  * vid Section
   */
-  .hero {
+  .vid {
     position: relative;
     height: 100vh;
     background-color: var(--primary-color);
@@ -112,12 +112,12 @@
   }
   
   @media (min-width: 1400px) {
-    .hero__heading {
+    .vid__heading {
         font-size: 3.2rem;
     }
   }
   
-  .hero__video {
+  .vid__video {
     position: absolute;
     top:50%;
     left: 50%;
@@ -128,7 +128,7 @@
     transform: translateX(-50%) translateY(-50%);
   }
   
-  .hero__overlay {
+  .vid__overlay {
     position: absolute;
     left: 0;
     top: 0;
@@ -139,15 +139,15 @@
     z-index: 1;
   }
   
-  .hero__content {
+  .vid__content {
     z-index: 1;
   }
   
-  .hero__content-width {
+  .vid__content-width {
     max-width: 540px;
   }
   
-  .hero__scroll-btn {
+  .vid__scroll-btn {
     position: absolute;
     left: 50%;
     bottom: 30px;
@@ -160,12 +160,12 @@
     text-decoration: none;
   }
   
-  .hero__scroll-btn:hover {
+  .vid__scroll-btn:hover {
     color: var(--bs-light);
     opacity: 0.8;
   }
   
-  .hero__scroll-btn .bi {
+  .vid__scroll-btn .bi {
     transition-delay: 0.8s;
     animation: bounce 1s infinite alternate;
   }
